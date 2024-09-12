@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:profile_email_id",
+ "creation": "2024-09-12 16:16:57.628110",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profile_email_id",
+  "branch",
+  "joining_year",
+  "passing_year",
+  "profile_completeness",
+  "linkedin_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Engineering Branch"
+  },
+  {
+   "fieldname": "joining_year",
+   "fieldtype": "Data",
+   "label": "Joining Year"
+  },
+  {
+   "fieldname": "passing_year",
+   "fieldtype": "Data",
+   "label": "Passing Year"
+  },
+  {
+   "fieldname": "profile_completeness",
+   "fieldtype": "Percent",
+   "label": "Profile Completeness",
+   "non_negative": 1,
+   "precision": "0"
+  },
+  {
+   "fieldname": "profile_email_id",
+   "fieldtype": "Link",
+   "label": "Profile email id",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "linkedin_url",
+   "fieldtype": "Data",
+   "label": "LinkedIn URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-12 17:57:36.269196",
+ "modified_by": "Administrator",
+ "module": "Campus Suite",
+ "name": "Alumini Profile",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
