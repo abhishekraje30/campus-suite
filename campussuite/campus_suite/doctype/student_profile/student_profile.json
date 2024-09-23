@@ -6,41 +6,72 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "profile_photo_section",
+  "profile_photo",
+  "column_break_pqpe",
+  "profile_photo_id",
+  "project_details_section",
+  "company_name",
+  "internship_joining_date",
+  "internship_completion_date",
+  "responsibility_1",
+  "responsibility_2",
+  "responsibility_3",
+  "internship_details_section",
+  "project_title",
+  "project_summary",
+  "project_description_1",
+  "project_description_2",
+  "project_description_3",
+  "skills_section",
+  "tech_skill_1",
+  "tech_skill_2",
+  "tech_skill_3",
+  "tech_skill_4",
+  "tech_skill_5",
+  "column_break_jlqo",
+  "soft_skill_1",
+  "soft_skill_2",
+  "soft_skill_3",
+  "section_break_vqvj",
+  "professional_summary",
+  "degree_details_section",
   "profile_email_id",
-  "branch",
-  "joining_year",
-  "passing_year",
-  "average_cgpa",
+  "degree_branch",
+  "degree_joining_year",
+  "degree_passing_year",
+  "degree_marking_system",
+  "degree_cgpa",
+  "degree_percentage",
   "profile_completeness",
+  "column_break_jsdm",
   "house_details",
   "area_details",
   "location",
   "state",
-  "pincode"
+  "pincode",
+  "section_break_h5lb",
+  "hsc_or_diploma",
+  "hsc_board_name",
+  "hsc_passing_year",
+  "hsc_marking_system",
+  "hsc_percentage",
+  "hsc_cgpa",
+  "column_break_witv",
+  "diploma_college_name",
+  "diploma_branch",
+  "diploma_marking_system",
+  "diploma_percentage",
+  "diploma_cgpa",
+  "diploma_passing_year",
+  "section_break_6hoi",
+  "ssc_board_name",
+  "ssc_marking_system",
+  "ssc_percentage",
+  "ssc_cgpa",
+  "ssc_passing_year"
  ],
  "fields": [
-  {
-   "fieldname": "branch",
-   "fieldtype": "Link",
-   "label": "Branch",
-   "options": "Engineering Branch"
-  },
-  {
-   "fieldname": "joining_year",
-   "fieldtype": "Data",
-   "label": "Joining Year"
-  },
-  {
-   "fieldname": "passing_year",
-   "fieldtype": "Data",
-   "label": "Passing Year"
-  },
-  {
-   "fieldname": "average_cgpa",
-   "fieldtype": "Float",
-   "label": "Average CGPA",
-   "precision": "2"
-  },
   {
    "fieldname": "profile_completeness",
    "fieldtype": "Percent",
@@ -77,14 +108,308 @@
   {
    "fieldname": "profile_email_id",
    "fieldtype": "Link",
-   "label": "Profile email id",
+   "label": "Profile Email Id",
    "options": "User",
    "unique": 1
+  },
+  {
+   "fieldname": "column_break_jsdm",
+   "fieldtype": "Section Break",
+   "label": "Address Details"
+  },
+  {
+   "fieldname": "section_break_h5lb",
+   "fieldtype": "Section Break",
+   "label": "HSC or Diploma Details"
+  },
+  {
+   "fieldname": "hsc_or_diploma",
+   "fieldtype": "Select",
+   "label": "HSC or Diploma",
+   "options": "HSC\nDiploma"
+  },
+  {
+   "fieldname": "hsc_passing_year",
+   "fieldtype": "Data",
+   "label": "HSC Passing Year"
+  },
+  {
+   "fieldname": "column_break_witv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diploma_passing_year",
+   "fieldtype": "Data",
+   "label": "Diploma Passing Year"
+  },
+  {
+   "fieldname": "diploma_branch",
+   "fieldtype": "Data",
+   "label": "Diploma Branch"
+  },
+  {
+   "fieldname": "diploma_percentage",
+   "fieldtype": "Float",
+   "label": "Diploma Percentage",
+   "precision": "2"
+  },
+  {
+   "fieldname": "profile_photo_section",
+   "fieldtype": "Section Break",
+   "label": "Profile Photo"
+  },
+  {
+   "fieldname": "profile_photo",
+   "fieldtype": "Attach Image",
+   "label": "Profile Photo"
+  },
+  {
+   "fieldname": "column_break_pqpe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profile_photo_id",
+   "fieldtype": "Data",
+   "label": "Profile Photo ID"
+  },
+  {
+   "fieldname": "project_details_section",
+   "fieldtype": "Section Break",
+   "label": "Internship Details"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "internship_joining_date",
+   "fieldtype": "Data",
+   "label": "Internship Joining Date"
+  },
+  {
+   "fieldname": "internship_completion_date",
+   "fieldtype": "Data",
+   "label": "Internship Completion Date"
+  },
+  {
+   "fieldname": "responsibility_1",
+   "fieldtype": "Data",
+   "label": "Responsibility 1"
+  },
+  {
+   "fieldname": "responsibility_2",
+   "fieldtype": "Data",
+   "label": "Responsibility 2"
+  },
+  {
+   "fieldname": "responsibility_3",
+   "fieldtype": "Data",
+   "label": "Responsibility 3"
+  },
+  {
+   "fieldname": "internship_details_section",
+   "fieldtype": "Section Break",
+   "label": "Internship Details"
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Data",
+   "label": "Project Title"
+  },
+  {
+   "fieldname": "project_summary",
+   "fieldtype": "Text",
+   "label": "Project Summary"
+  },
+  {
+   "fieldname": "project_description_1",
+   "fieldtype": "Data",
+   "label": "Project Description 1"
+  },
+  {
+   "fieldname": "project_description_2",
+   "fieldtype": "Data",
+   "label": "Project Description 2"
+  },
+  {
+   "fieldname": "project_description_3",
+   "fieldtype": "Data",
+   "label": "Project Description 3"
+  },
+  {
+   "fieldname": "skills_section",
+   "fieldtype": "Section Break",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "tech_skill_1",
+   "fieldtype": "Data",
+   "label": "Tech Skill 1"
+  },
+  {
+   "fieldname": "tech_skill_2",
+   "fieldtype": "Data",
+   "label": "Tech Skill 2"
+  },
+  {
+   "fieldname": "tech_skill_3",
+   "fieldtype": "Data",
+   "label": "Tech Skill 3"
+  },
+  {
+   "fieldname": "tech_skill_4",
+   "fieldtype": "Data",
+   "label": "Tech Skill 4"
+  },
+  {
+   "fieldname": "tech_skill_5",
+   "fieldtype": "Data",
+   "label": "Tech Skill 5"
+  },
+  {
+   "fieldname": "column_break_jlqo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "soft_skill_1",
+   "fieldtype": "Data",
+   "label": "Soft Skill 1"
+  },
+  {
+   "fieldname": "soft_skill_2",
+   "fieldtype": "Data",
+   "label": "Soft Skill 2"
+  },
+  {
+   "fieldname": "soft_skill_3",
+   "fieldtype": "Data",
+   "label": "Soft Skill 3"
+  },
+  {
+   "fieldname": "section_break_vqvj",
+   "fieldtype": "Section Break",
+   "label": "Summary / Objective"
+  },
+  {
+   "fieldname": "professional_summary",
+   "fieldtype": "Text",
+   "label": "Professional Summary"
+  },
+  {
+   "fieldname": "degree_details_section",
+   "fieldtype": "Section Break",
+   "label": "Degree Details"
+  },
+  {
+   "fieldname": "degree_branch",
+   "fieldtype": "Link",
+   "label": "Degree Branch",
+   "options": "Engineering Branch"
+  },
+  {
+   "fieldname": "degree_joining_year",
+   "fieldtype": "Data",
+   "label": "Degree Joining Year"
+  },
+  {
+   "fieldname": "degree_passing_year",
+   "fieldtype": "Data",
+   "label": "Degree Passing Year"
+  },
+  {
+   "fieldname": "degree_marking_system",
+   "fieldtype": "Select",
+   "label": "Degree Marking System",
+   "options": "Percentage\nCGPA"
+  },
+  {
+   "fieldname": "degree_cgpa",
+   "fieldtype": "Float",
+   "label": "Degree CGPA",
+   "precision": "2"
+  },
+  {
+   "fieldname": "degree_percentage",
+   "fieldtype": "Float",
+   "label": "Degree Percentage",
+   "precision": "2"
+  },
+  {
+   "fieldname": "hsc_board_name",
+   "fieldtype": "Data",
+   "label": "HSC Board Name"
+  },
+  {
+   "fieldname": "hsc_marking_system",
+   "fieldtype": "Select",
+   "label": "HSC Marking System",
+   "options": "Percentage\nCGPA"
+  },
+  {
+   "fieldname": "hsc_percentage",
+   "fieldtype": "Float",
+   "label": "HSC Percentage"
+  },
+  {
+   "fieldname": "hsc_cgpa",
+   "fieldtype": "Float",
+   "label": "HSC CGPA"
+  },
+  {
+   "fieldname": "diploma_college_name",
+   "fieldtype": "Data",
+   "label": "Diploma College Name"
+  },
+  {
+   "fieldname": "diploma_marking_system",
+   "fieldtype": "Select",
+   "label": "Diploma Marking System",
+   "options": "Percentage\nCGPA"
+  },
+  {
+   "fieldname": "diploma_cgpa",
+   "fieldtype": "Float",
+   "label": "Diploma CGPA",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_6hoi",
+   "fieldtype": "Section Break",
+   "label": "SSC Details"
+  },
+  {
+   "fieldname": "ssc_board_name",
+   "fieldtype": "Data",
+   "label": "SSC Board Name"
+  },
+  {
+   "fieldname": "ssc_marking_system",
+   "fieldtype": "Select",
+   "label": "SSC Marking System",
+   "options": "Percentage\nCGPA"
+  },
+  {
+   "fieldname": "ssc_percentage",
+   "fieldtype": "Float",
+   "label": "SSC Percentage",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ssc_cgpa",
+   "fieldtype": "Float",
+   "label": "SSC CGPA",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ssc_passing_year",
+   "fieldtype": "Data",
+   "label": "SSC Passing Year"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-12 16:18:45.635273",
+ "modified": "2024-09-24 02:27:52.253491",
  "modified_by": "Administrator",
  "module": "Campus Suite",
  "name": "Student Profile",
