@@ -194,17 +194,17 @@
   },
   {
    "fieldname": "responsibility_1",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Responsibility 1"
   },
   {
    "fieldname": "responsibility_2",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Responsibility 2"
   },
   {
    "fieldname": "responsibility_3",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Responsibility 3"
   },
   {
@@ -224,17 +224,17 @@
   },
   {
    "fieldname": "project_description_1",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Project Description 1"
   },
   {
    "fieldname": "project_description_2",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Project Description 2"
   },
   {
    "fieldname": "project_description_3",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Project Description 3"
   },
   {
@@ -409,7 +409,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-24 02:27:52.253491",
+ "modified": "2024-09-24 13:22:16.767527",
  "modified_by": "Administrator",
  "module": "Campus Suite",
  "name": "Student Profile",
