@@ -33,6 +33,8 @@
   "soft_skill_1",
   "soft_skill_2",
   "soft_skill_3",
+  "center_of_excellence",
+  "other_center_of_excellence",
   "section_break_vqvj",
   "professional_summary",
   "degree_details_section",
@@ -405,11 +407,22 @@
    "fieldname": "ssc_passing_year",
    "fieldtype": "Data",
    "label": "SSC Passing Year"
+  },
+  {
+   "fieldname": "center_of_excellence",
+   "fieldtype": "Link",
+   "label": "Center of Excellence",
+   "options": "Center of Excellence"
+  },
+  {
+   "fieldname": "other_center_of_excellence",
+   "fieldtype": "Data",
+   "label": "Other Center of Excellence"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-24 13:22:16.767527",
+ "modified": "2024-11-06 18:43:37.197928",
  "modified_by": "Administrator",
  "module": "Campus Suite",
  "name": "Student Profile",
